@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+<style type="text/css">
+	
+	/** estos codigos eliminan bordes en botones que ponen los navegadores */
+*:focus:not(:focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/** estos codigos eliminan colores en los links */
+
+
+a {color:#010101;} 
+a:visited {color:#010101;} 
+a:active {color:#010101;} 
+a:hover {color:#010101;} 
+a:link, a:visited, a:active {
+            text-decoration:none;
+        }
+
+</style>
+
+</head>
+
+
+
+<body>
+ 
+    
+
+    <!-- ############ CONTENEDOR ############ -->
+    <div  class="container-fluid">
+        
+      
+        
+       
+<br>
+        <!--Fila -->
+        <div class="row mx-0 mb-2  ">
+
+        	 <!--Columna texto-->
+            <div class="col-lg-10 col-md-6"> <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+             <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.          
+             <p> 
+
+              <p>EJEMPLO DE LISTA</p>
+          <ul>
+             <li>Lista 1: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+               <li>Lista 2: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+                  <li>Lista 3: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+                      <li>Lista 4: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+         </ul> 
+
+
+        </div>
+
+
+
+         <!--Columna botones-->
+
+      <div class="col-lg-2 col-md-6 mx-auto d-block  col-sm-6 mx-auto d-block">
+  	
+  <!-- BTN1 -->
+  <button type="button" class="btn btn-primary btn-block"   id="myBtn1"> Botón 1</button>
+  
+
+  <!-- BTN2 -->
+  <button type="button" class="btn btn-primary  btn-block" id="myBtn2"> Botón 2 </button>
+
+ 
+  
+
+       </div>
+        </div>
+
+
+
+
+
+
+
+
+           
+
+  <!-- Modales (modifica su altura (la de todos) en linea 228 de styles.css) -->
+  
+  <!-- Para varios tipos de tamaños del pop up se puede añadir una id personalizada a cada pop up, 
+  	puedes modificar o visualizar estas ids al final del styles.css (linea 561) -->
+
+
+   <!-- Modal1 -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog  ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+        	<h4 class="modal-title"> Cabecera</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                          <span aria-hidden="true"><img style="width:28px; height:28px;" src="img/cancelar.png"></span>
+                          </button>
+                 </div>
+        <div class="modal-body" id="altura1">
+          <p>Aqui iría el texto a poner en el pop up que puede ser de cualquier longitud y tiene scroll en caso de superar la coordenada Y</p>
+          <div class="containerimg" >
+            
+
+            <!--imagen en si-->
+            <a href="img/1.png"  target="_blank"><img src="img/1.png" class="img-center" ></a>
+             <!--icono ampliar-->
+            <a href="img/1.png"  target="_blank"><img src="img/ampliar_negro.png" width="80%" class="lupa" ></a>
+                     
+               </div>
+
+              <div class="row leyendaimg" >
+            
+             <p  id="leyenda" > Leyenda de imagen</p>
+        </div>
+
+
+
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+ <!-- Modal2 -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content2-->
+      <div class="modal-content">
+        <div class="modal-header">
+        	<h4 class="modal-title"> Cabecera</h4>
+        <button type="button" class="close" data-dismiss="modal">
+                          <span aria-hidden="true"><img style="width:28px; height:28px;" src="img/cancelar.png"></span>
+                          </button>
+        </div>
+        <div class="modal-body">
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+          <ul>
+             <li>Lista 1: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+               <li>Lista 2: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+                  <li>Lista 3: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+                      <li>Lista 4: En la actualidad no todo el mundo puede entender la actual situación que atraviesa el estado Español </li>
+         </ul> 
+        </div>
+        <br>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+
+   <div class="row"> <br><br>
+       <div class="col-lg-3 col-md-2"> </div>
+<div class="col-lg-6 col-md-10"> 
+    <div class="containerimg" ><img src="img/1.png" class="img-center"  ></div> <div class="row leyendaimg" ><p  id="leyenda" > Leyenda de imagen</p>
+        </div></div>
+
+<div class="col-lg-3 col-md-2"> </div>
+
+
+
+        
+<script>
+
+
+$(document).ready(function(){
+  $("#myBtn1").click(function(){
+    $("#myModal1").modal();
+  });
+});
+
+
+$(document).ready(function(){
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal();
+  });
+});
+
+
+
+$(document).ready(function(){
+  $("#myBtn3").click(function(){
+    $("#myModal3").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn4").click(function(){
+    $("#myModal4").modal();
+  });
+});
+
+$(document).ready(function(){
+  $("#myBtn5").click(function(){
+    $("#myModal5").modal();
+  });
+});
+
+
+$(document).ready(function(){
+  $("#myBtn6").click(function(){
+    $("#myModal6").modal();
+  });
+});
+
+
+
+
+</script>
+
+
+
+
+    </div><!-- Fin container -->
+
+    
+   
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
